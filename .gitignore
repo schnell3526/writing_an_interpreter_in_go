@@ -16,3 +16,5 @@
 
 # for Mac
 .DS_Store
+
+.cache
