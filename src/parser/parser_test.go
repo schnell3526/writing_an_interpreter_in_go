@@ -15,8 +15,8 @@ func TestLetStatements(t *testing.T) {
 		expectedValue      interface{}
 	}{
 		{"let x = 5;", "x", 5},
-		{"let y = 10;", "y", 10},
-		{"let foobar = 83838;", "foobar", 83838},
+		{"let y = true;", "y", true},
+		{"let foobar = y;", "foobar", "y"},
 	}
 
 	for _, tt := range tests {
@@ -74,7 +74,6 @@ func TestReturnStatements(t *testing.T) {
 		if testLiteralExpression(t, returnStmt.ReturnValue, tt.expectedValue) {
 			return
 		}
-
 	}
 }
 
