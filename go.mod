@@ -11,3 +11,5 @@ replace github.com/schnell3526/writing_an_interpreter_in_go/src/repl => /src/rep
 replace github.com/schnell3526/writing_an_interpreter_in_go/src/ast => /src/ast
 
 replace github.com/schnell3526/writing_an_interpreter_in_go/src/parser => /src/parser
+
+replace github.com/schnell3526/writing_an_interpreter_in_go/src/object => /src/object
